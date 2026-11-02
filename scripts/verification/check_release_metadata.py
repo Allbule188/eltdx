@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from scripts.verification.verify_release_artifacts import verify_artifacts
+from workplaces01.github_project.eltdx.scripts.verification.verify_release_artifacts import verify_artifacts
 
 
 TARGET_CARGO_VERSION = "3.2.2"

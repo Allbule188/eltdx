@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.package.sync_docs import DESTINATION, SOURCE, differences, sync_docs
+from workplaces01.github_project.eltdx.scripts.package.sync_docs import DESTINATION, SOURCE, differences, sync_docs
 
 
 def test_packaged_docs_match_authoritative_root() -> None:

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from scripts.verification.check_release_metadata import TARGET_PYTHON_VERSION
+from workplaces01.github_project.eltdx.scripts.verification.check_release_metadata import TARGET_PYTHON_VERSION
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -13,13 +13,13 @@ BRANCH_REF = "refs/heads/codex/rust-3.0"
 
 
 def test_current_release_metadata_is_consistent() -> None:
-    from scripts.verification.check_release_metadata import check
+    from workplaces01.github_project.eltdx.scripts.verification.check_release_metadata import check
 
     assert check() == []
 
 
 def test_current_release_notes_are_complete() -> None:
-    from scripts.verification.check_release_text import check
+    from workplaces01.github_project.eltdx.scripts.verification.check_release_text import check
 
     assert check() == []
 

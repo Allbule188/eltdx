@@ -1,0 +1,63 @@
+{
+ "date": "2026-09-22",
+ "measured_at": "2026-09-22T14:37:49.500819",
+ "workload": "money_flow",
+ "report": [
+  {
+   "host": "43.139.95.83:7709",
+   "rate": 37.75,
+   "elapsed": 0.397,
+   "errors": 0,
+   "error": null
+  },
+  {
+   "host": "124.70.199.56:7709",
+   "rate": 33.62,
+   "elapsed": 0.446,
+   "errors": 0,
+   "error": null
+  },
+  {
+   "host": "121.36.225.169:7709",
+   "rate": 32.99,
+   "elapsed": 0.455,
+   "errors": 0,
+   "error": null
+  },
+  {
+   "host": "111.229.247.189:7709",
+   "rate": 32.98,
+   "elapsed": 0.455,
+   "errors": 0,
+   "error": null
+  },
+  {
+   "host": "123.60.164.122:7709",
+   "rate": 31.08,
+   "elapsed": 0.483,
+   "errors": 0,
+   "error": null
+  },
+  {
+   "host": "124.71.187.72:7709",
+   "rate": 30.55,
+   "elapsed": 0.491,
+   "errors": 0,
+   "error": null
+  },
+  {
+   "host": "175.178.128.227:7709",
+   "rate": 27.45,
+   "elapsed": 0.546,
+   "errors": 0,
+   "error": null
+  },
+  {
+   "host": "124.223.163.242:7709",
+   "rate": 23.64,
+   "elapsed": 0.634,
+   "errors": 0,
+   "error": null
+  }
+ ]
+}

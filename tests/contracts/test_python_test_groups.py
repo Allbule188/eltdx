@@ -5,8 +5,8 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-from scripts import unified_test
-from scripts.verification.run_python_test_group import load_groups
+from workplaces01.github_project.eltdx.scripts import unified_test
+from workplaces01.github_project.eltdx.scripts.verification.run_python_test_group import load_groups
 
 
 ROOT = Path(__file__).parents[2]

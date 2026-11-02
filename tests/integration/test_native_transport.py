@@ -17,7 +17,7 @@ from eltdx.transport import PooledSocketTransport, SocketTransport
 from eltdx.transport.actor import RuntimeState, TcpState
 from eltdx.transport.pool import PoolState
 
-from loopback_support import (
+from workplaces01.github_project.eltdx.tests.integration.loopback_support import (
     ScriptedServer,
     answer_handshake,
     read_request,

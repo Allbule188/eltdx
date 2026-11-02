@@ -8,7 +8,7 @@ from pathlib import Path
 import pytest
 
 from eltdx.protocol.commands import COMMANDS
-from scripts.fixtures.differential import (
+from workplaces01.github_project.eltdx.scripts.fixtures.differential import (
     DifferentialCase,
     assert_exact,
     assert_error_case,

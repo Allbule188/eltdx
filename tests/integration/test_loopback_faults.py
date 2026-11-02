@@ -8,7 +8,7 @@ import pytest
 
 from eltdx import _native
 
-from loopback_support import (
+from workplaces01.github_project.eltdx.tests.integration.loopback_support import (
     ScriptedServer,
     answer_handshake,
     read_request,

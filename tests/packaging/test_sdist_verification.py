@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.verification.verify_sdist import REQUIRED_FILES, REQUIRED_PREFIXES, inspect_sdist
+from workplaces01.github_project.eltdx.scripts.verification.verify_sdist import REQUIRED_FILES, REQUIRED_PREFIXES, inspect_sdist
 
 
 ROOT = Path(__file__).resolve().parents[2]

@@ -22,7 +22,7 @@ from eltdx.transport import PooledSocketTransport, SocketTransport
 from eltdx.transport.actor import RuntimeState
 from eltdx.transport.pool import PoolState
 
-from runtime_support import CONTENT, PATH, NativeStressServer
+from workplaces01.github_project.eltdx.tests.stress.runtime_support import CONTENT, PATH, NativeStressServer
 
 
 def _count(name: str, default: int) -> int:

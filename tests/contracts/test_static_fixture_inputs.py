@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.fixtures.materialize_static_inputs import (
+from workplaces01.github_project.eltdx.scripts.fixtures.materialize_static_inputs import (
     CASES,
     EXTRA_CASES,
     REQUIRED_FILES,

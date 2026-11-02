@@ -7,8 +7,8 @@ from pathlib import Path
 
 import pytest
 
-from scripts.verification import verify_wheel_matrix
-from scripts.verification.verify_release_artifacts import (
+from workplaces01.github_project.eltdx.scripts.verification import verify_wheel_matrix
+from workplaces01.github_project.eltdx.scripts.verification.verify_release_artifacts import (
     EXPECTED_PLATFORMS,
     classify_platform,
     verify_artifacts,

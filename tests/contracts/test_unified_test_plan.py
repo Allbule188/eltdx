@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts import unified_test
+from workplaces01.github_project.eltdx.scripts import unified_test
 
 
 def test_unified_test_has_exact_nine_round_order() -> None:

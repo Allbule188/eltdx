@@ -14,7 +14,7 @@ from pathlib import Path
 if __package__:
     from .verify_release_artifacts import inspect_release_wheel, verify_artifacts
 else:
-    from verify_release_artifacts import inspect_release_wheel, verify_artifacts
+    from workplaces01.github_project.eltdx.scripts.verification.verify_release_artifacts import inspect_release_wheel, verify_artifacts
 
 
 ROOT = Path(__file__).resolve().parents[2]

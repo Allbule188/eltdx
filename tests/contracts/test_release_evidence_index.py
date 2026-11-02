@@ -9,7 +9,7 @@ from types import SimpleNamespace
 
 import pytest
 
-from scripts.verification import index_release_evidence
+from workplaces01.github_project.eltdx.scripts.verification import index_release_evidence
 
 
 CANDIDATE = "a" * 40

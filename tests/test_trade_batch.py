@@ -16,8 +16,8 @@ from eltdx.protocol import decode_response
 from eltdx.transport import PooledSocketTransport, SocketTransport
 from eltdx.transport.pool import PinnedTransportProxy, PoolState
 from eltdx.transport.native import native_module
-from scripts.fixtures.canonical import to_canonical
-from scripts.fixtures.differential import assert_exact, discover_cases
+from workplaces01.github_project.eltdx.scripts.fixtures.canonical import to_canonical
+from workplaces01.github_project.eltdx.scripts.fixtures.differential import assert_exact, discover_cases
 
 
 def row(i, *, minute=570, status=0, kind="trade"):

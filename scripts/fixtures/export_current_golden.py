@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from scripts.fixtures.canonical import (  # noqa: E402
+from workplaces01.github_project.eltdx.scripts.fixtures.canonical import (  # noqa: E402
     canonical_exception,
     frame_header,
     from_canonical,

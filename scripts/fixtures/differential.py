@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from scripts.fixtures.canonical import (
+from workplaces01.github_project.eltdx.scripts.fixtures.canonical import (
     canonical_exception,
     frame_header,
     from_canonical,
